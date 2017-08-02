@@ -12,10 +12,8 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV["REDISTOGO_URL"] %>
+  url: redis://redistogo:944216814069434d333ad7f36c4419ce@angelfish.redistogo.com:11359/
   host: angelfish.redistogo.com
   port: 11359
   password: 944216814069434d333ad7f36c4419ce
   channel_prefix: pixel_playground_production
-
-redis://redistogo:944216814069434d333ad7f36c4419ce@angelfish.redistogo.com:11359/
