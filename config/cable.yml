@@ -15,5 +15,5 @@ production:
   url: <%= ENV["REDISTOGO_URL"] %>
   host: angelfish.redistogo.com
   port: 11359
-  password: 944216814069434d333ad7f36c4419ce
+  password: <%= ENV["REDISTOGO_PASS"] %>
   channel_prefix: pixel_playground_production
