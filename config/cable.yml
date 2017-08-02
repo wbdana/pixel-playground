@@ -4,12 +4,6 @@ development:
 test:
   adapter: async
 
-
-# production:
-# adapter: redis
-# url: <%= ENV["REDISCLOUD_URL"] %>
-# channel_prefix: pixel-playground_production
-
 production:
   adapter: redis
   url: <%= ENV["REDISTOGO_URL"] %>
