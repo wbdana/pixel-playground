@@ -12,7 +12,7 @@ test:
 
 production:
   adapter: redis
-  url: redis://redistogo:944216814069434d333ad7f36c4419ce@angelfish.redistogo.com:11359/
+  url: <%= ENV["REDISTOGO_URL"] %>
   host: angelfish.redistogo.com
   port: 11359
   password: 944216814069434d333ad7f36c4419ce
